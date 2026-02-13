@@ -1,7 +1,7 @@
 # Live CCTV Flood Detection with ResNet
 ## About the project
 This project aims to solve the challenge set by the Met Office's Flood Forecasting Centre at the Hatch:IT Competition: Using existing distributed networks to aid real-time flood detection and damage assessment.
-We propose utilising existing CCTV cameras in place, which can be available publicly, privately or by partnering with enterprises. Subsequently, therefore we developed and trained a computer vision model to be able to detect collecting water on road surfaces in real time from a constant feed of CCTV footage. The CCTV in use for this prototype is live from the Abbey Road crossing in London and a demo output from the system can be seen as follows:
+We propose utilising existing CCTV camera feeds, which can be available publicly, privately or by partnering with enterprises. Subsequently, we developed this prototype - a computer vision model trained to detect collecting water on road surfaces in real time from a constant, dynamic feed of CCTV footage. The demo CCTV in use here is live from the Abbey Road crossing in London:
 
 <br>
 </br>
@@ -16,4 +16,4 @@ Training data was obtained from the following Kaggle datasets
 [FloodIMG](https://www.kaggle.com/datasets/hhrclemson/flooding-image-dataset)
 
 ## Model Performance
-The trained ResNet model achieved 99.25% accuracy on validation data, although more quality and specific training data would definitely help in more accurate CCTV stream performance.
+The ResNet vision model was trained on extremely simple data, only as a proof of concept for the proposed system. For deployment, we recommend obtaining training images and labels from the cctv cameras themselves, or utilising more advanced methods such as image segmentation models.
