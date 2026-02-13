@@ -1,6 +1,7 @@
 # Live CCTV Flood Detection with ResNet
 ## About the project
 This project aims to solve the challenge set by the Met Office's Flood Forecasting Centre at the Hatch:IT Competition: Using existing distributed networks to aid real-time flood detection and damage assessment.
+
 We propose utilising existing CCTV camera feeds, which can be available publicly, privately or by partnering with enterprises. Subsequently, we developed this prototype - a computer vision model trained to detect collecting water on road surfaces in real time from a constant, dynamic feed of CCTV footage. The demo CCTV in use here is live from the Abbey Road crossing in London:
 
 <br>
